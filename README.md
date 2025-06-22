@@ -1,2 +1,2 @@
 # CPP-Journey
-Contains all my C++ code and folders
+Contains all my C and C++ code and folders
