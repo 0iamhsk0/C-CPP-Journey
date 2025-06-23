@@ -1,0 +1,34 @@
+To write a code using classes, firstly class is created using keyword class as class can have data member and member function as these both are declared inside the class.
+A class can have Access specifier public,private or even protected.
+The members which are private can not be accessed outside the class but the member which are public they can be accessed outside the class.
+
+16-08-2023 Today's important topics
+1. enum
+2. static variable 
+3. constant variable
+4. static member of a class
+5. constant member of a class
+
+Static variable is not reinitilized every time
+
+A class can also use static data members
+
+A reference variable means a new name for existing variable. No need of the dereference variable here.
+
+use of pointer for classes in c++  :-
+1. inside the class -> as pointer data of class.
+2. pointer of object -> object of class is of pointer type.
+
+To access members of a class when 
+pointers are used for object as well as on class members then we use pointer to member operators which are  ->* .* (dereferencing operator)
+1. ->* this is used to access members of class, .* is used when object of class itself is used  with the member pointer.
+2. A class member pointer can be declared using ::* it means if class is A then A::* means pointer to members.
+3.Suppose class A has a data member n then &A::n it means address of n data member of A class.  
+
+the this pointer:
+    holds the address of current obj;
+    each object of class has the access of its own class, which is possible with this pointer
+    this pointer is used to call functions and variables of same class.
+    this pointer is implicitily available to all the memer func of a class
+    it points to the current address of the pointer which is being stated
+    

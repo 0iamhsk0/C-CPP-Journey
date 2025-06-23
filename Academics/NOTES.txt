@@ -1,0 +1,6 @@
+//to access members of a class when pointers are used for object as well as class members then we use pointer to member operators which are :
+// ->*   which is used to access the members of class
+//and .* is used when object of the class itself is used
+
+//(both are dereference operators)
+a class member pointer
